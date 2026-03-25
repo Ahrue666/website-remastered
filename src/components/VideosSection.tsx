@@ -3,6 +3,7 @@ import { Play } from "lucide-react";
 
 const videos = [
   // Lions at the Gate
+  { id: "0wqaz717ZRY", title: "Lions At The Gate - Latest Video" },
   { id: "VEQiXCf3ACg", title: "Lions at the Gate - Silhouettes of Me" },
   { id: "wWDOJpDsWU0", title: "Lions at the Gate - Can't Feel the Sun" },
   { id: "yEbhoZ-CU8U", title: "Lions At The Gate - Drain" },
@@ -38,7 +39,7 @@ const VideosSection = () => {
           viewport={{ once: true }}
           className="font-display text-4xl md:text-5xl font-bold uppercase tracking-tight text-gradient-ember mb-16"
         >
-          Videos
+          Official Videos
         </motion.h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">

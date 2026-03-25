@@ -15,7 +15,7 @@
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 15 90% 55%;
+    --primary: 0 63% 55%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 12%;
@@ -24,7 +24,7 @@
     --muted: 0 0% 15%;
     --muted-foreground: 0 0% 55%;
 
-    --accent: 25 100% 50%;
+    --accent: 30 90% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,21 +32,22 @@
 
     --border: 0 0% 16%;
     --input: 0 0% 16%;
-    --ring: 15 90% 55%;
+    --ring: 0 63% 55%;
 
     --radius: 0.5rem;
 
-    --ember-start: 15 90% 55%;
-    --ember-end: 0 85% 50%;
+    --ember-start: 36 100% 45%;
+    --ember-mid: 25 89% 62%;
+    --ember-end: 0 63% 55%;
 
     --sidebar-background: 0 0% 7%;
     --sidebar-foreground: 0 0% 85%;
-    --sidebar-primary: 15 90% 55%;
+    --sidebar-primary: 0 63% 55%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 0 0% 12%;
     --sidebar-accent-foreground: 0 0% 85%;
     --sidebar-border: 0 0% 16%;
-    --sidebar-ring: 15 90% 55%;
+    --sidebar-ring: 0 63% 55%;
   }
 }
 
@@ -67,11 +68,15 @@
 @layer utilities {
   .text-gradient-ember {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(var(--ember-start)), hsl(var(--accent)), hsl(var(--ember-end)));
+    background-image: linear-gradient(360deg, #D14747 17%, #E69500 100%);
   }
 
   .bg-gradient-ember {
-    background-image: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    background-image: linear-gradient(360deg, #D14747 15%, #F59A47 100%);
+  }
+
+  .bg-gradient-ember-btn {
+    background-image: linear-gradient(325deg, #D14747 37%, #F59A47 79%);
   }
 
   .section-padding {

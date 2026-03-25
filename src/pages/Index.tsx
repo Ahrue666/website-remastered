@@ -1,13 +1,11 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import LatestSingleSection from "@/components/LatestSingleSection";
-import ProductionSection from "@/components/ProductionSection";
-import LessonsSection from "@/components/LessonsSection";
-import TourSection from "@/components/TourSection";
 import ReleasesSection from "@/components/ReleasesSection";
+import TourSection from "@/components/TourSection";
 import VideosSection from "@/components/VideosSection";
-import GallerySection from "@/components/GallerySection";
 import DiscographySection from "@/components/DiscographySection";
+import GallerySection from "@/components/GallerySection";
 import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 
@@ -17,13 +15,11 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <LatestSingleSection />
-      <ProductionSection />
-      <LessonsSection />
-      <TourSection />
       <ReleasesSection />
+      <TourSection />
       <VideosSection />
-      <GallerySection />
       <DiscographySection />
+      <GallerySection />
       <AboutSection />
       <ContactSection />
     </div>

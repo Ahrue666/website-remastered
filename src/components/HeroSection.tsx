@@ -58,13 +58,13 @@ const HeroSection = () => {
           className="flex flex-wrap gap-4"
         >
           <a
-            href="#contact"
+            href="/producing"
             className="inline-flex items-center gap-3 bg-gradient-ember px-8 py-4 font-display text-sm uppercase tracking-widest text-primary-foreground hover:opacity-90 transition-opacity"
           >
             Producing <ArrowRight size={16} />
           </a>
           <a
-            href="#contact"
+            href="/lessons"
             className="inline-flex items-center gap-3 border border-primary/50 px-8 py-4 font-display text-sm uppercase tracking-widest text-primary hover:bg-primary/10 transition-colors"
           >
             Lessons <ArrowRight size={16} />

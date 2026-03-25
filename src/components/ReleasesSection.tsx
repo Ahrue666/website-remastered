@@ -29,7 +29,7 @@ const ReleasesSection = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="font-display text-4xl md:text-5xl font-bold uppercase tracking-tight text-gradient-ember mb-16"
+          className="font-display text-4xl md:text-5xl font-bold uppercase tracking-tight text-gradient-ember mb-16 text-center"
         >
           Latest Releases
         </motion.h2>
